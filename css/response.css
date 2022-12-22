@@ -39,6 +39,21 @@ nav .close{
     width:35px; height:35px;
     background-color:red;
   }
+  header>p.btn{
+    position:absolute;
+    top:15px;
+    right:40px;
+    width:40px;height:40px;
+    flex-direction: column;
+    justify-content: space-between;
+    display:none;
+  }
+  header>p.btn>span{
+    display:block;
+    height:2px;
+    width:100%;
+    background-color:#fff;
+  }
 /* box01 */
 #box01>h3{
     position:absolute;

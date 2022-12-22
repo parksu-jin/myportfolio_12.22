@@ -93,7 +93,7 @@
   /* nav */
   header>div>nav{
     position:fixed;
-    left:0; top:0;
+    left:-400px; top:0;
     width:400px;
     height:100%;
     background-color:rgba(16, 16, 16, 0.705);
@@ -118,6 +118,9 @@
   }
   nav .close{
     display:block;
+  }
+  header>p.btn{
+    display:flex;
   }
   /* box01 */
   #box01{
